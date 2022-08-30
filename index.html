@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fabrica y distribuidora de Tequeños venezolanos,cachitos, arepas rellenas, queso blanco, chuleta"/>
+    <meta name="keywords" content="tequeños venezolanos, tequeños, arepas rellenas, cachitos, queso blanco, queso llanero, chuleta ahumada, distribuidora de tequeños, venezuela, portugal,braga ">
+    <meta name="author" content="Aly Salazar"/>
+
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
       integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles/styles.css" />
+   
     <title>Inicio</title>
     <!-- CSS only -->
     <link
@@ -18,35 +23,64 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link href="./styles/styles.css" rel="stylesheet" />
+   
+
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!--Encabezado nuevo-->
-    <img
-      class="cabecera"
-      src="./Images/NUEVO.png"
-      width="100%"
-      alt="Cabecera de tequeños y pasapalo"
-    />
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="navbar__bars"><i class="fas fa-bars"></i></div>
-      <div class="navbar__menu">
-        <a href="index.html" class="navbar__menu--links">Inicio</a>
-        <a href="./html/ubicacion.html" class="navbar__menu--links"
-          >Ubicacion</a
-        >
-        <a href="./html/productos.html" class="navbar__menu--links"
-          >Productos</a
-        >
-        <a href="./html/contacto.html" class="navbar__menu--links">Contacto</a>
+    <img src="./Images/baner.png" class="img-fluid" alt="Cabecera de tequeños y pasapalo">
+    
+  
 
-        <a href="./html/acerca.html" class="navbar__menu--links">Acerca</a>
-
-        <a href="/" class="navbar__menu--links" id="button">Iniciar Sesion</a>
+    <!-- Esta es la Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./html/acerca.html">Acerca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./html/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./html/ubicacion.html">Ubicacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./html/contacto.html">Contactos</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary" type="submit">
+             Ir
+            </button>
+          </form>
+        </div>
       </div>
     </nav>
-
+    
+    <br /><br /><br /><br /><br /><br>
     <!-- Contenido-->
     <div class="hero">
       <div class="hero__container">
@@ -61,54 +95,26 @@
         <div class="hero__container--right">
           <img
             src="images/tequeños-venezolanos.jpg"
-            alt="alien"
+            alt="Tequeños"
             class="hero__container--img"
           />
         </div>
       </div>
     </div>
 
-    <!-- Contenido -->
-
-    <footer>
-      <div class="container">
-        <footer
-          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-        >
-          <p class="col-md-4 mb-0 text-muted">&copy; 2022 TequeShop, Inc</p>
-
-          <a
-            href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
-          >
-            <svg class="bi me-2" width="40" height="32">
-              <use xlink:href="#bootstrap" />
-            </svg>
-          </a>
-
-          <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link px-2 text-muted">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a href="./html/productos.html" class="nav-link px-2 text-muted"
-                >productos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./html/contacto.html" class="nav-link px-2 text-muted"
-                >Contactos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./html/ubicacion.html" class="nav-link px-2 text-muted"
-                >Ubicacion</a
-              >
-            </li>
-          </ul>
-        </footer>
-      </div>
-    </footer>
+    <!-- Footer -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item"><a href="./html/acerca.html" class="nav-link px-2 text-muted">Acerca</a></li>
+          <li class="nav-item"><a href="./html/productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+          <li class="nav-item"><a href="./html/ubicacion.html" class="nav-link px-2 text-muted">Ubicacion</a></li>
+          <li class="nav-item"><a href="./html/contacto.html" class="nav-link px-2 text-muted">Contactos</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; TequeShop 2022</p>
+        <p class="text-center text-muted">&copy; Programado por Aly Salazar</p>
+      </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
