@@ -29,7 +29,7 @@
   </head>
   <body>
     <!--Encabezado nuevo-->
-    <img src="./Images/baner.png" class="img-fluid" alt="Cabecera de tequeños y pasapalo">
+    <img src="./images/banernuevo.jpg" class="img-fluid" alt="Cabecera de tequeños y pasapalo">
     
   
 
@@ -50,7 +50,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="./html/acerca.html">Acerca</a>
@@ -73,14 +73,45 @@
               aria-label="Search"
             />
             <button class="btn btn-outline-primary" type="submit">
-             Ir
+            ir
             </button>
           </form>
         </div>
       </div>
     </nav>
+
+    <!-- carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/trico1.png"  class="img-fluid" width="1950" height="400" class="d-block w-100" alt="Tequeños variados">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/trico2.png" class="img-fluid" width="1950" height="400" class="d-block w-100" alt="Arepas y Cachapas">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/trico3.png" class="img-fluid" width="1950" height="400" class="d-block w-100" alt="Cachitos y empanadas">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
     
-    <br /><br /><br /><br /><br /><br>
+    <!-- Pedidos -->
+    <div class="pedido">
+      <p class="pedido">  PEDIDOS.. <img src="./images/telefono.png" width="50" height="50"  alt="telefono"> .. 927507110</p>
+    </div>
     <!-- Contenido-->
     <div class="hero">
       <div class="hero__container">
@@ -94,13 +125,176 @@
         </div>
         <div class="hero__container--right">
           <img
-            src="images/tequeños-venezolanos.jpg"
+            src="images/tequenos.jpg" 
             alt="Tequeños"
             class="hero__container--img"
           />
         </div>
       </div>
     </div>
+
+  </section>
+  <h2  class="caracteristicas-productos-title text-primary display 4 .text-wrap"> <q>
+      Recetas de cada uno de Nuestros Productos</q>
+  </h2>
+  <section class="caracteristicas-productos">
+      <div class="caracteristicas-producto-item">
+          <iframe width="370" height="250" src="https://www.youtube.com/embed/WHvIPubruOQ" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="title">
+             Tequeño de Queso
+          </p>
+          <p class="description">
+              La Mejor Receta con los mejores ingredientes
+          </p>
+      </div>
+      <div class="caracteristicas-producto-item">
+          <iframe width="370" height="250" src="https://www.youtube.com/embed/WRF9rnet5rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="title">
+             Tequeño de Nutella.
+          </p>
+          <p class="description">
+              La Mejor Receta con los mejores ingredientes
+          </p>
+      </div>
+      <div class="caracteristicas-producto-item">
+          <iframe width="370" height="250" src="https://www.youtube.com/embed/-EVydITgObY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="title">
+              Tequeño de Guayaba
+          </p>
+          <p class="description">
+              La Mejor Receta con los mejores ingredientes
+          </p>
+      </div>
+      <div class="caracteristicas-producto-item">
+          <iframe width="370" height="250" src="https://www.youtube.com/embed/Kuc-RIURaKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="title">
+             Cachitos de Jamon y Queso
+          </p>
+          <p class="description">
+              La Mejor Receta con los mejores ingredientes
+          </p>
+      </div>
+      <div class="caracteristicas-producto-item">
+          <iframe width="370" height="250" src="https://www.youtube.com/embed/6fNM43UaqbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="title">
+             Arepas Rellenas
+          </p>
+          <p class="description">
+              La Mejor Receta con los mejores ingredientes
+          </p>
+      </div>
+      <div class="caracteristicas-producto-item">
+        <iframe width="370" height="250" src="https://www.youtube.com/embed/4W4z6eFOMwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="title">
+           Cachapa con Queso
+        </p>
+        <p class="description">
+            La Mejor Receta con los mejores ingredientes
+        </p>
+    </div>
+  </section>
+
+  <div class="caja"></div>
+
+       <h3  class="caracteristicas-productos-title text-primary display 4 .text-wrap"> <q>
+             Compra YA Nuestros Productos</q>
+      </h3>
+  
+  
+    <section class="caracteristicas-productos">
+            <div class="caracteristicas-producto-item">
+        <div
+          style="background-image: url('./images/products/goya1.png')"
+          class="caracteristicas-producto-item-image"
+        ></div>
+        <p class="title">Tequeño de Queso</p>
+        <p class="description">Te lo Enviamos a cualquier parte de Europa</p>
+        <p class="price">15 Euros</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+      <div class="caracteristicas-producto-item">
+        <div
+          style="background-image: url('./images/products/goya2.png')"
+          class="caracteristicas-producto-item-image"
+        ></div>
+        <p class="title">Tequeño de Nutella</p>
+        <p class="description">Te lo Enviamos a cualquier parte de Europa</p>
+        <p class="price">15 Euros</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+      <div class="caracteristicas-producto-item">
+        <div
+          style="background-image: url('./images/products/goya3.png')"
+          class="caracteristicas-producto-item-image"
+        ></div>
+        <p class="title">Tequeño de Guayaba</p>
+        <p class="description">Te lo Enviamos a cualquier parte de Europa</p>
+        <p class="price">15 Euros</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+      <div class="caracteristicas-producto-item">
+        <div
+          style="background-image: url('./images/products/goya4.png')"
+          class="caracteristicas-producto-item-image"
+        ></div>
+        <p class="title">Cachitos de Jamon</p>
+        <p class="description">Te lo Enviamos a cualquier parte de Europa</p>
+        <p class="price">15 Euros</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+      <div class="caracteristicas-producto-item">
+        <div
+          style="background-image: url('./images/products/cachapa.png')"
+          class="caracteristicas-producto-item-image"
+        ></div>
+        <p class="title">Cachapa con Queso</p>
+        <p class="description">Te lo Enviamos a cualquier parte de Europa</p>
+        <p class="price">15 Euros</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+      <div class="caracteristicas-producto-item">
+        <div
+          style="background-image: url('./images/products/arepa.png')"
+          class="caracteristicas-producto-item-image"
+        ></div>
+        <p class="title">Arepas Rellenas</p>
+        <p class="description">Te lo Enviamos a cualquier parte de Europa</p>
+        <p class="price">15 Euros</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+      <div class="caracteristicas-producto-item">
+        <div
+          style="background-image: url('./images/products/chuleta.png')"
+          class="caracteristicas-producto-item-image"
+        ></div>
+        <p class="title">Chuleta Ahumada</p>
+        <p class="description">Te lo Enviamos a cualquier parte de Europa</p>
+        <p class="price">15 Euros</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+      <div class="caracteristicas-producto-item">
+        <div
+          style="background-image: url('./images/products/empanada.png')"
+          class="caracteristicas-producto-item-image"
+        ></div>
+        <p class="title">Empanadas</p>
+        <p class="description">Te lo Enviamos a cualquier parte de Europa</p>
+        <p class="price">15 Euros</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+      <div class="caracteristicas-producto-item">
+        <div
+          style="background-image: url('./images/products/queso.png')"
+          class="caracteristicas-producto-item-image"
+        ></div>
+        <p class="title">Queso Blanco</p>
+        <p class="description">Te lo Enviamos a cualquier parte de Europa</p>
+        <p class="price">15 Euros</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </section>
+  </div>
+
 
     <!-- Footer -->
     <div class="container">
